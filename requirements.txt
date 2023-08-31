@@ -1,0 +1,6 @@
+asgiref==3.7.2
+Django==4.2.4
+protobuf==4.23.4
+pywatchman==1.4.1
+PyYAML==6.0
+sqlparse==0.4.4
