@@ -1,0 +1,86 @@
+# API V1 ENDPOINTS:
+
+# Domain
+domain: https://www.[sub-domain].[domain].[tld]/api/v1/
+
+# 00. Accounts endpoints
+Accounts:
+  -   POST:     accounts/user/login                             # Login as a generic user
+  -    GET:     accounts/user/email/verification-link           # get a user email verification link
+  -   POST:     accounts/user/email/verify?link={link}          # Verify a user email address
+  -    GET:     accounts/user/phonenumber/verification-code     # Get a User phone number verification code
+  -   POST:     accounts/user/phonenumber/verify?code={code}    # Verify a user phone number
+  -   POST:     accounts/user/password/reset                    # Reset a user password
+  -   POST:     accounts/user/password/change                   # Change a user password
+  -   POST:     accounts/admin/login                            # Login as an Admin
+  -   POST:     accounts/player/signup                          # Create a new player account
+  -   POST:     accounts/player/login                           # Login as a player
+
+
+# 01. Users endpoints
+Users:
+  -   POST:   users/      # Create a new user
+  -    GET:   users/      # Get a list of users
+  -    GET:   users/{id}  # Get details of a specific user
+  -    PUT:   users/{id}  # Update details of a specific user
+  -  PATCH:   users/{id}  # Update specific fields of a specific user
+  - DELETE:   users/{id}  # Update details of a specific user
+
+
+# 02. Admins endpoints
+Admins:
+  -   POST:   admins/      # Create a new admin
+  -    GET:   admins/      # Get a list of admins
+  -    GET:   admins/{id}  # Get details of a specific admin
+  -    PUT:   admins/{id}  # Update details of a specific admin
+  -  PATCH:   admins/{id}  # Update specific fields of a specific admin
+  - DELETE:   admins/{id}  # Update details of a specific admin
+
+www.myapi.com/v1/question/4/answers/2/
+# 03. Players endpoints
+Players:
+  -   POST:   players/      # Create a new player
+  -    GET:   players/      # Get a list of players
+  -    GET:   players/{id}  # Get details of a specific player
+  -    PUT:   players/{id}  # Update details of a specific player
+  -  PATCH:   players/{id}  # Update specific fields of a specific player
+  - DELETE:   players/{id}  # Update details of a specific player
+
+# 04. Questions endpoints
+Questions:
+  -   POST:   questions/      # Create a new question
+  -    GET:   questions/      # Get a list of questions
+  -    GET:   questions/{id}  # Get details of a specific question
+  -    PUT:   questions/{id}  # Update details of a specific question
+  -  PATCH:   questions/{id}  # Update specific fields of a specific question
+  - DELETE:   questions/{id}  # Update details of a specific question
+
+# 05. Question & Answers endpoints
+Question & Answer(s):
+  -   POST:   questions/{id}/answers/             # Create a new answer for a Specific Question
+  -    GET:   questions/{id}/answers/             # Get a list of answers for a Specific Question
+  -    GET:   questions/{id}/answers/{answer_id}  # Get details of a specific answer for a Specific Question
+  -    PUT:   questions/{id}/answers/{answer_id}  # Update details of a specific answer for a Specific Question
+  -  PATCH:   questions/{id}/answers/{answer_id}  # Update specific fields of a specific answer for a Specific Question
+  - DELETE:   questions/{id}/answers/{answer_id}  # Update details of a specific answer for a Specific Question
+
+# 06. Questions  Providers endpoints
+Questions Providers:
+  -   POST:   qproviders/      # Create a new qprovider
+  -    GET:   qproviders/      # Get a list of qproviders
+  -    GET:   qproviders/{id}  # Get details of a specific qprovider
+  -    PUT:   qproviders/{id}  # Update details of a specific qprovider
+  -  PATCH:   qproviders/{id}  # Update specific fields of a specific qprovider
+  - DELETE:   qproviders/{id}  # Update details of a specific qprovider
+
+# 07. Games endpoints
+Games:
+  -   POST:   games/      # Create a new game
+  -    GET:   games/      # Get a list of games
+  -    GET:   games/{id}  # Get details of a specific game
+  -    PUT:   games/{id}  # Update details of a specific game
+  -  PATCH:   games/{id}  # Update specific fields of a specific game
+  - DELETE:   games/{id}  # Update details of a specific game
+
+# Password manager
+Bitwarden

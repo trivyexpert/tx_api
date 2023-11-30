@@ -1,0 +1,63 @@
+Disciplines:
+  - Continous Communication and Continuous Collaboration:
+    - WhatsApp
+    - Discord
+
+  - Standardized Integrated Development Environment:
+    - Use a code editors or IDE and make it a standard across team(s).
+
+  - Code Standardization:
+    - Adopt and use a stand coding style, and make it a standard across team(s).
+
+  - Linting:
+    - Adopt and use a starndard linting tool and configure it for the project.
+
+  - Debugging:
+    - Setup a Debugging environment in your Code editor or IDE.
+
+  - Standardized Logging:
+    - Adopt and use a standard Logger application for tracking Bugs, Errors and System Health in General.
+
+  - Terminal String Styling:
+    - Adopt and use a standard TSS application for outputing on the Terminal,
+      andard standardize its configurations across the team.
+
+  - Code Optimization:
+    - Use Libraries like Lodash which provide off-the-shelf solutions to common problems,
+      this will help keep your code minimal.
+
+  - TDD:
+    - Practice Test-driven development.
+    - Try as much as you can to use the Test-First approach.
+
+  - Pair Programming:
+    - Practice Pair Programming
+    - One programmer writes the tests
+    - then the other writes the code to pass the tests
+    - Then switch responsibilities
+
+  - Continuous Integration:
+    - Frequently merge your changes to the main codebase
+
+  - Continuous Delivery:
+    - At any single point in time, there must always be a version of the code (release) 
+      ready for shipping to production.
+
+
+Environment Setup:
+  - Virtualization:
+    - Oracle Virtualbox
+    - Ubuntu Operating system (VM)
+    - Docker (Container Management System)
+    - Jenkins (Delivery & Deployment)
+
+  - Runtime Environments:
+    - Python (3.10) /Django 4.4
+    - Nodejs 20.9 (Typescript)
+
+  - Artifacts and Tools:
+    - System Plans (Linear)
+    - Codebases / Repositories (Git & Github)
+    - Databases (aws.amazon.com & render.com)
+    - Containers (Docker & DockerHub)
+    - servers (aws.amazon.com & render.com)
