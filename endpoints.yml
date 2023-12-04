@@ -84,3 +84,10 @@ Games:
 
 # Password manager
 Bitwarden
+
+# TODOs:
+- Model that connects to the database table.
+- Serializer that serializes the Model
+- View that is connected to the serializer
+- URL that provides the data as an output to the client
+
